@@ -1,26 +1,28 @@
 /* shared styles */
-body{
+body {
     font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: #fd6e0a;
 }
+
 /* nav relaeted styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
 
-.nav-title{
+.nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800px;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
@@ -29,11 +31,13 @@ nav li {
     list-style: none;
     margin-right: 50px;
 }
+
 nav a {
     text-decoration: none;
     color: #181818;
 }
-.btn-primary{   
+
+.btn-primary {
     background-color: #fd6e0a;
     border-radius: 5px;
     border: 0;
@@ -44,14 +48,40 @@ nav a {
 }
 
 /* header related style */
-header{
-    background-color:rgba(245, 197, 152, 0.315);
+header {
+    background-color: rgba(245, 197, 152, 0.315);
+    background-image: url(header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profile-picture{
+
+.banner .profile-picture {
     width: 500px;
 }
+.banner-content{
+    max-width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+/* about section */
+/*  */
