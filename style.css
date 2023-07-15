@@ -97,6 +97,10 @@ header {
 
 }
 /* main section styles */
+main{
+    max-width:1140px;
+    margin: auto;
+}
 
 /* about section */
 .about{
@@ -104,4 +108,12 @@ header {
     background: #f3793234;
     border-radius: 18px;
     margin: 130px 0;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
